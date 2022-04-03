@@ -1,0 +1,12 @@
+:root {
+	--appscale: 1.333;
+	--space-10: 80px;
+	--appgutterwidth: 4rem;
+
+	--rowspacingtightest: 14px;
+	--rowspacingtighter: 14px;
+	--rowspacingtight: 28px;
+	--rowspacingloose: 49px;
+	--rowspacinglooser: 70x;
+	--rowspacingloosest: 119px;
+}

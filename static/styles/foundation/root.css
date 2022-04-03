@@ -1,0 +1,24 @@
+html {
+	font: 150%/150%
+		var(
+			--appFont,
+			'-apple-system',
+			BlinkMacSystemFont,
+			'Segoe UI',
+			Roboto,
+			Oxygen-Sans,
+			Ubuntu,
+			Cantarell,
+			'Helvetica Neue',
+			sans-serif
+		);
+	color: hsl(var(--appHue), 15%, 40%);
+}
+
+img {
+	max-width: 100%;
+}
+
+.main {
+	padding-bottom: 400px;
+}

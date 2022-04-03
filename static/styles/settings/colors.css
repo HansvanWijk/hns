@@ -1,0 +1,12 @@
+:root {
+	--background: hsl(var(--appHue), 50%, 50%);
+	--text: hsl(var(--appHue), 20%, 10%);
+	--primary: hsl(var(--appHue), 50%, 50%);
+	--secondary: hsl(var(--appHue), 50%, 50%);
+	--highlight: hsl(var(--appHue), 50%, 50%);
+	--accent: hsl(var(--appHue), 50%, 50%);
+	--gray: hsl(var(--appHue), 50%, 50%);
+	--lightgray: hsl(var(--appHue), 50%, 50%);
+	--midgray: hsl(var(--appHue), 50%, 50%);
+	--borderColor: hsl(var(--appHue), 20%, 80%);
+}

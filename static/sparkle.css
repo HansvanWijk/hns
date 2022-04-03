@@ -1,0 +1,21 @@
+@import 'styles/settings/root.css';
+@import 'styles/settings/spacing.css';
+@import 'styles/settings/typography.css';
+@import 'styles/settings/colors.css';
+
+@import 'styles/foundation/normalize.css';
+@import 'styles/foundation/root.css';
+@import 'styles/foundation/typography.css';
+
+/* LAYOUT
+====================================================== */
+@import 'styles/layout/stack.css';
+
+/* HELPERS
+====================================================== */
+@import 'styles/helpers/scale.css';
+@import 'styles/helpers/spacing.css';
+
+img {
+	height: auto;
+}

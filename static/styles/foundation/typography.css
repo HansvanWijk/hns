@@ -1,0 +1,25 @@
+.dropcap:first-letter {
+	font-size: 3em;
+	display: inline-block;
+	float: left;
+	line-height: 1;
+	margin: 0 0.2em 0 0;
+	font-weight: var(--contrastWeight);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading {
+	font-size: 1rem;
+	line-height: 1.1;
+	margin: 0;
+	font-weight: var(--headingWeight);
+	margin-bottom: 16px;
+	font-family: var(--headingFont, inherit);
+	letter-spacing: -0.01em;
+	color: hsl(var(--appHue), 30%, 20%);
+}

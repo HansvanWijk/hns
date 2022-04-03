@@ -1,0 +1,17 @@
+.stack-vertical > * {
+	margin-bottom: 4px;
+	display: block;
+}
+
+.stack-horizontal {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.stack-horizontal > * {
+	margin-right: 4px;
+}
+
+.stack-horizontal > *:last-child {
+	margin-right: 0;
+}

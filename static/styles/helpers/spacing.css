@@ -1,0 +1,67 @@
+.mtxl {
+	margin-top: var(--spacing=);
+}
+
+.sy {
+	margin-bottom: 80px;
+}
+
+.sx {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+// spacing inner
+
+.si-0 {
+	padding: 4px;
+}
+.si,
+.si-1 {
+	padding: var(--innerSpace);
+}
+.si-2 {
+	padding: 16px;
+}
+.si-4 {
+	padding: 16px;
+}
+
+// spacing inner horizotal
+.si-h0 {
+	padding-left: 4px;
+	padding-right: 4px;
+}
+.si-h1,
+.si-h {
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.rowspacing {
+	margin-bottom: var(--rowspacing, 160px);
+}
+
+.rowspacing-tightest {
+	margin-bottom: var(--rowspacing, 80px);
+}
+
+.rowspacing-tighter {
+	margin-bottom: var(--rowspacing, 80px);
+}
+
+.rowspacing-tight {
+	margin-bottom: var(--rowspacing, 80px);
+}
+
+.rowspacing-loose {
+	margin-bottom: var(--rowspacing, 160px);
+}
+
+.rowspacing-looser {
+	margin-bottom: var(--rowspacing, 80px);
+}
+
+.rowspacing-loosest {
+	margin-bottom: var(--rowspacing, 80px);
+}
