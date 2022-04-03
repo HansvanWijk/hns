@@ -3,7 +3,7 @@
 
   export async function load(context) {
     const graphcms = new GraphQLClient(
-      process.env.VITE_GRAPHCMS_URL,
+      import.meta.env.VITE_GRAPHCMS_URL,
       {
         headers: {},
       }
