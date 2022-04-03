@@ -1,5 +1,5 @@
 <script context="module">
-  import { variables } from '../lib/variables';
+  import { variables } from '$lib/variables';
   import { gql, GraphQLClient } from 'graphql-request'
 
   export async function load() {
