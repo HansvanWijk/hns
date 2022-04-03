@@ -3,7 +3,7 @@
 
   export async function load(context) {
     const graphcms = new GraphQLClient(
-      import.meta.env.VITE_GRAPHCMS_URL,
+      process.env.VITE_GRAPHCMS_URL,
       {
         headers: {},
       }
@@ -57,5 +57,5 @@
 </Container>
 
 <Container type="content">
-  <div>{@html post.content.html}</div>
+  <div class="scale-2">{@html post.content.html}</div>
 </Container>
