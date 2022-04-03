@@ -52,7 +52,7 @@
 </svelte:head>
 
 <Container>
-  <Heading scale="7" content={post.title} />
+  <Heading scale={7} content={post.title} />
   <MetaData author={post.author.name} date={post.date} tags={post.tags} />
 </Container>
 
