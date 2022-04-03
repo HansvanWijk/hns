@@ -7,6 +7,11 @@
   import Container from "$lib/layout/Container.svelte";
 </script>
 
+  <svelte:head>
+    <title>Hans | Rocking het internet sinds 1994</title>
+    <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
+  </svelte:head>
+
   <Container>
     <Heading
       scale={7}

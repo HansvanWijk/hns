@@ -1,5 +1,5 @@
 <script context="module">
-  import { variables } from '$lib/variables';
+  import { variables } from 'src/variables;
   import { gql, GraphQLClient } from 'graphql-request'
 
   export async function load() {
@@ -45,10 +45,11 @@
   export let posts
 </script>
 
-
 <svelte:head>
-  <title>SvelteKit starter blog</title>
-</svelte:head>
+    <title>Blog | Hans</title>
+    <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
+  </svelte:head>
+
 
 
 
