@@ -1,3 +1,3 @@
 interface ImportMetaEnv {
-  VITE_GRAPHCMS_URL: string
+  VITE_GRAPHCMS_URL: boolean
 }
