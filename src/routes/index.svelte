@@ -4,7 +4,7 @@
 
   export async function load() {
     const graphcms = new GraphQLClient(
-      variables.VITE_GRAPHCMS_URL,
+      'https://api-eu-west-2.graphcms.com/v2/cl1jn5n3w6n6201xi8v0z3ofj/master',
       {
         headers: {},
       }
@@ -39,10 +39,7 @@
 
 <script>
   import Heading from "$lib/type/Heading.svelte";
-  import Divider from "$lib/layout/Divider.svelte";
   import Text from "$lib/type/Text.svelte";
-  import Input from "$lib/elements/Input.svelte";
-  import Button from "$lib/elements/Button.svelte";
   import Container from "$lib/layout/Container.svelte";
   import BlogList from '$lib/components/BlogList.svelte';
 
