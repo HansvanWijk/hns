@@ -16,7 +16,6 @@
       </div>
       <div slot="split-2">
         <Excerpt 
-          link="/post/{post.slug}"
           title={post.title}
           text={post.excerpt}
         />
