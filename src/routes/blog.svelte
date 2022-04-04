@@ -2,11 +2,9 @@
   import { variables } from '$lib/variables';
   import { gql, GraphQLClient } from 'graphql-request'
 
-  const cmsUrl = variables.VITE_GRAPHCMS_URL
-
   export async function load() {
     const graphcms = new GraphQLClient(
-      'https://api-eu-west-2.graphcms.com/v2/cl1jn5n3w6n6201xi8v0z3ofj/master',
+      import.meta.env.VITE_GRAPHCMS_URL,
       {
         headers: {},
       }

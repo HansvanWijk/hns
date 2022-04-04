@@ -2,11 +2,9 @@
   import { variables } from '$lib/variables'
   import { gql, GraphQLClient } from 'graphql-request'
 
-  const cmsUrl = variables.VITE_GRAPHCMS_URL;
-
   export async function load(context) {
     const graphcms = new GraphQLClient(
-      cmsUrl,
+      import.meta.env.VITE_GRAPHCMS_URL,
       {
         headers: {},
       }
