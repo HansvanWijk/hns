@@ -57,5 +57,5 @@
 </Container>
 
 <Container type="content">
-  <div class="scale-2">{@html post.content.html}</div>
+  <div>{@html post.content.html}</div>
 </Container>

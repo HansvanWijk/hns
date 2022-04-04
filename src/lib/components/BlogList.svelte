@@ -6,6 +6,8 @@
     export let posts
 </script>
 
+
+
 {#each posts as post}
   <Section>
     <Split>

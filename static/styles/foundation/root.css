@@ -22,3 +22,7 @@ img {
 .main {
 	padding-bottom: 400px;
 }
+
+body {
+	font-size: clamp(16px, 1.2vw, 30px);
+}

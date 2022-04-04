@@ -1,4 +1,8 @@
-<div class="split">
+<script>
+	import { fly } from 'svelte/transition';
+</script>
+
+<div class="split" in:fly={{ y: -20 }}>
   <slot name="split-1"></slot>
   <slot name="split-2"></slot>
 </div>

@@ -1,4 +1,6 @@
 <script>
+  import { fly } from 'svelte/transition';
+
   export let p = [];
   export let m = [];
   export let type = "";
@@ -7,7 +9,7 @@
 
 </script>
 
-<div class={`container rowspacing ${typeClass}`}>
+<div class={`container rowspacing ${typeClass}`} in:fly={{ y: -20 }} >
   {p} {m}
   <slot></slot>
 </div>
